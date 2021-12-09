@@ -1,0 +1,20 @@
+{
+  "version": "15.0.0",
+  "files": {
+    "4d487dc6c48b43425f5634351c27fbcbecde53bd8d3506ff3d73b87884305650": {
+      "source": {
+        "path": "orderapp.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "569781470788-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-569781470788-us-east-1",
+          "objectKey": "4d487dc6c48b43425f5634351c27fbcbecde53bd8d3506ff3d73b87884305650.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::569781470788:role/cdk-hnb659fds-file-publishing-role-569781470788-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
